@@ -10,20 +10,35 @@ Native Android personal identity app for Shahriar.
 - Android API 26+
 - Application ID: `com.shahriar.vn`
 - Dark/light theme foundation
-- Animated screen transitions
-- Modular screen architecture
 - GitHub Actions debug APK pipeline
 
-## Current foundation screens
+## Phase 03 — Identity & Hero
+
+- Cinematic dark visual identity with gold/cyan accents
+- Hero portrait wired to `hero_cartoon`
+- Real portrait wired to `portrait_real`
+- Shahriar VN hero treatment and personal identity hierarchy
+- About/Identity screen
+- Projects and Nemoris presentation cards
+- Curiosity/Interests map
+- Persian/English language switch with runtime RTL/LTR direction
+- Refined page transitions and component styling
+- No emoji in product UI
+
+## Current screens
 
 Home, About, Projects, Interests, Nemoris, Ideas, Library, Contact.
 
+## Build
+
+GitHub Actions is configured to build a debug APK on pushes to `main` and on manual dispatch.
+
 ## Next phases
 
-1. Design system refinement
-2. Real portrait/cartoon/logo assets
-3. Full bilingual RTL/LTR engine
-4. Complete screen content and interactions
+1. Replace vector fallback artwork with the supplied raster portraits as repository binary assets
+2. Finalize launcher/adaptive icon and splash assets
+3. Complete bilingual content architecture and persistence
+4. Complete all screen content and interactions
 5. Motion and visual polish
-6. QA and device testing
+6. Device QA and APK verification
 7. Release signing and AAB
