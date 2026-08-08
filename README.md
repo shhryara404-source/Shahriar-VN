@@ -2,24 +2,28 @@
 
 Native Android personal identity app for Shahriar.
 
-## Stack
-- Kotlin
+## Phase 01 — Native Foundation
+
+- Kotlin 2.0.21
 - Jetpack Compose
 - Material 3
 - Android API 26+
-- GitHub Actions automated APK build
+- Application ID: `com.shahriar.vn`
+- Dark/light theme foundation
+- Animated screen transitions
+- Modular screen architecture
+- GitHub Actions debug APK pipeline
 
-## Product direction
-A cinematic, design-forward personal identity app combining biography, interests, projects, Nemoris worldbuilding, ideas, library, and contact in a bilingual Persian/English experience.
+## Current foundation screens
 
-## Screens
-Home, About, Skills, Projects, Nemoris, Ideas, Library, Contact.
+Home, About, Projects, Interests, Nemoris, Ideas, Library, Contact.
 
-## Build
-The repository is configured so GitHub Actions installs Gradle 8.8 and builds `assembleDebug` without requiring a committed Gradle wrapper JAR.
+## Next phases
 
-## Assets
-The app is wired to `hero_cartoon` and `portrait_real` drawable resources. The repository currently contains lightweight vector fallback artwork for those resource names so the native build remains self-contained; the original supplied raster portraits can be dropped into the same paths later without changing Kotlin code.
-
-## Package
-`com.shahriar.vn`
+1. Design system refinement
+2. Real portrait/cartoon/logo assets
+3. Full bilingual RTL/LTR engine
+4. Complete screen content and interactions
+5. Motion and visual polish
+6. QA and device testing
+7. Release signing and AAB
