@@ -1,0 +1,1 @@
+(()=>{const apply=()=>{const l=localStorage.getItem('svn-lang')||'fa';document.documentElement.lang=l;document.documentElement.dir=l==='fa'?'rtl':'ltr'};apply();document.addEventListener('click',e=>{if(e.target.closest('[data-action="lang"],[data-lang]'))setTimeout(apply,0)})})();
