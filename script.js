@@ -1,0 +1,1 @@
+(()=>{const s=document.createElement('script');s.src='https://raw.githubusercontent.com/shhryara404-source/Shahriar-VN/gh-pages/script.js?v=20260809.4';s.defer=true;document.head.appendChild(s)})();
