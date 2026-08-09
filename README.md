@@ -1,2 +1,0 @@
-# Shahriar VN
-
